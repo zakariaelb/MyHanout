@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text1"
+            android:text="Shop : le shopping est"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="15sp"
+            android:textColor="@android:color/black" />
+    <TextView
+        android:id="@+id/text2"
+        android:layout_below="@id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="considéré comme une activité récréative et de distraction"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="15sp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@id/text"
+        android:layout_below="@id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="dans laquelle on visite une variété de magasins avec une intention préméditée"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:id="@+id/text4"
+        android:text="d'acheter un produit."
+        android:fontFamily="sans-serif-medium"
+        android:textSize="15sp"
+        android:textColor="@android:color/black" />
+
+
+    <ImageView
+        android:id="@+id/call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/shop"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/call" />
+        <ImageView
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/shop"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/shop" />
+</RelativeLayout>
