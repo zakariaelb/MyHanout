@@ -44,7 +44,19 @@
         android:fontFamily="sans-serif-medium"
         android:textSize="15sp"
         android:textColor="@android:color/black" />
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text4"
+        android:id="@id/text6"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Adress : Street 34 N123 Casablanca" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text6"
+        android:textColor="@color/colorAccent"
+        android:text="Opening : 8:00 am to 8:00pm" />
 
     <ImageView
         android:id="@+id/call"
